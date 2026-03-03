@@ -1,4 +1,4 @@
-# convolutional_neural_network
+# CNN
 
 This project was split from the monorepo notebook collection and contains one notebook with isolated dependencies.
 
