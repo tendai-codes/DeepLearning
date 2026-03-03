@@ -1,4 +1,4 @@
-# artificial_neural_network - Power Plant Energy Output Prediction (Regression)
+# ANN - Power Plant Energy Output Prediction (Regression)
 
 This project was split from the monorepo notebook collection and contains one notebook with isolated dependencies.
 
