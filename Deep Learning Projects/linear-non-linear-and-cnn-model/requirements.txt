@@ -1,0 +1,8 @@
+jupyterlab
+matplotlib
+mlxtend
+pandas
+torch
+torchmetrics
+torchvision
+tqdm

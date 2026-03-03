@@ -1,0 +1,9 @@
+jupyterlab
+matplotlib
+mlxtend
+pandas
+requests
+torch
+torchmetrics
+torchvision
+tqdm
