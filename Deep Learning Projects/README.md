@@ -1,4 +1,4 @@
-# Split Notebook Projects
+# Notebook Projects
 
 Each folder below is ready to be used as its own repository (contains a notebook, `README.md`, and `requirements.txt`).
 
