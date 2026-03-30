@@ -1,16 +1,30 @@
-# Notebook Projects
+# Deep Learning Projects
 
-Each folder below is ready to be used as its own repository (contains a notebook, `README.md`, and `requirements.txt`).
+This repository contains deep learning projects organised by modelling task and workflow type.
 
-| Folder | Notebook | Requirements |
-|---|---|---|
-| `00-pytorch-fundamentals` | `00_pytorch_fundamentals.ipynb` | `jupyterlab, matplotlib, numpy, pandas, torch` |
-| `computer-vision-fashionmnist` | `Computer_Vision - FashionMNIST.ipynb` | `jupyterlab, matplotlib, mlxtend, pandas, requests, torch, torchmetrics, torchvision, tqdm` |
-| `linear-regression-template-pytorch` | `Linear Regression_Template PyTorch.ipynb` | `jupyterlab, matplotlib, torch` |
-| `linear-non-linear-and-cnn-model` | `Linear,Non_linear_and_CNN_Model.ipynb`, `Linear,_Non_linear_and_CNN_Model.ipynb` | `jupyterlab, matplotlib, mlxtend, pandas, torch, torchmetrics, torchvision, tqdm` |
-| `linear-regression-workflow-template` | `Linear_Regression_Workflow_Template.ipynb` | `jupyterlab, matplotlib, torch` |
-| `multi-class-classification-workflow-template` | `Multi_class_Classification_workflow_Template.ipynb` | `jupyterlab, matplotlib, numpy, pandas, scikit-learn, torch, torchmetrics` |
-| `pytorch-workflow` | `PyTorch_Workflow.ipynb` | `jupyterlab` |
-| `artificial-neural-network-power-plant-energy-output-prediction-regression` | `artificial_neural_network - Power Plant Energy Output Prediction (Regression).ipynb` | `jupyterlab, numpy, pandas, scikit-learn, tensorflow` |
-| `convolutional-neural-network` | `convolutional_neural_network.ipynb` | `jupyterlab, keras, matplotlib, numpy, tensorflow` |
-| `natural-language-processing` | `natural_language_processing.ipynb` | `jupyterlab, matplotlib, nltk, numpy, pandas, scikit-learn` |
+## Projects
+- PyTorch Fundamentals
+- PyTorch Workflow
+- Linear Regression (PyTorch)
+- FashionMNIST Image Classification
+- Convolutional Neural Network
+- Linear, Non-Linear and CNN Model Comparison
+- Power Plant Energy Output Prediction (Artificial Neural Network)
+- Stock Price Prediction (LSTM)
+
+## Summary
+These projects covered core deep learning workflows across tensor operations, model training pipelines, image classification, regression, and time-series prediction. The repository demonstrated practical use of PyTorch for building and training neural networks, including feedforward models, convolutional neural networks, and LSTM architectures.
+
+## Areas Covered
+- Tensor creation, reshaping, broadcasting, and device handling in PyTorch
+- End-to-end model training workflows with loss computation and optimisation
+- Image classification using fully connected and convolutional neural networks
+- Regression using artificial neural networks on structured numerical data
+- Time-series prediction using Long Short-Term Memory networks
+
+## Technical Scope
+- PyTorch tensors and `torch.nn.Module`
+- Training and evaluation loops
+- Neural network architecture comparison
+- Image preprocessing for classification tasks
+- Sequence preparation for temporal modelling
