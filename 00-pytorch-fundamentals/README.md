@@ -1,20 +1,20 @@
-# 00_pytorch_fundamentals
+# PyTorch Fundamentals
 
-This project was split from the monorepo notebook collection and contains one notebook with isolated dependencies.
+## Problem
 
-## Files
-- `00_pytorch_fundamentals.ipynb`
-- `requirements.txt`
+This project explored core tensor operations and computational workflows in PyTorch to support development of deep learning models using the PyTorch framework.
 
-## Setup
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-jupyter lab
-```
+## Objective
 
-## Portfolio Context
-This notebook maps to the PyTorch fundamentals track behind projects presented on
-`tendaisibanda.dev`, covering core tensor operations and model-building basics that
-support later computer vision and NLP workflows.
+- Introduce tensor creation and manipulation using PyTorch
+- Examine device management across CPU and GPU environments
+- Perform tensor indexing, reshaping, and mathematical operations
+- Demonstrate interoperability between PyTorch tensors and NumPy arrays
+
+## Approach
+
+- Created tensors with different shapes, data types, and initialisation methods
+- Applied tensor operations including reshaping, slicing, broadcasting, and aggregation
+- Demonstrated movement of tensors between computation devices
+- Converted tensors between NumPy arrays and PyTorch representations
+
