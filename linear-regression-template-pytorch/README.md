@@ -1,20 +1,26 @@
-# Linear Regression_Template PyTorch
+# Linear Regression Using PyTorch
 
-This project was split from the monorepo notebook collection and contains one notebook with isolated dependencies.
+## Problem
 
-## Files
-- `Linear Regression_Template PyTorch.ipynb`
-- `requirements.txt`
+This project analysed synthetic regression data to demonstrate how linear relationships between variables can be modelled using a PyTorch-based linear regression implementation.
 
-## Setup
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-jupyter lab
-```
+## Objective
 
-## Portfolio Context
-This notebook reflects the regression workflow foundations used in projects on
-`tendaisibanda.dev`, where baseline linear models are used before moving to
-deeper neural-network architectures.
+- Prepare input and target tensors for regression modelling
+- Implement a linear regression model using PyTorch modules
+- Train the model using gradient-based optimisation
+- Compare predicted values with observed targets
+
+## Approach
+
+- Generated synthetic input-output data representing a linear relationship
+- Converted data into tensor format for PyTorch training workflows
+- Defined a linear regression model and loss function
+- Trained the model using iterative parameter updates and evaluated predictions
+
+## Key Findings
+
+- The PyTorch linear regression model estimated parameters describing the relationship between input and target variables
+- Gradient-based optimisation updated model weights during training iterations
+- Loss values reflected changes in model fit across training steps
+- Visual comparisons enabled inspection of differences between predicted and observed values
