@@ -1,23 +1,26 @@
-# Computer_Vision - FashionMNIST
+# FashionMNIST Image Classification Using PyTorch
 
-This project was split from the monorepo notebook collection and contains one notebook with isolated dependencies.
+## Problem
 
-## Files
-- `Computer_Vision - FashionMNIST.ipynb`
-- `requirements.txt`
+This project analysed grayscale clothing image data from the FashionMNIST dataset to develop a neural network model capable of classifying apparel categories from image inputs.
 
-## Setup
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-jupyter lab
-```
+## Objective
 
-## Portfolio Context
-This notebook aligns with the FashionMNIST image classification project on `tendaisibanda.dev`.
-The portfolio version focuses on comparing CNN architectures (including a TinyVGG-inspired model)
-with emphasis on both accuracy and training efficiency.
+- Prepare image tensor data for supervised classification modelling
+- Train a neural network model to classify FashionMNIST images
+- Evaluate classification behaviour using predicted label outputs
+- Compare predicted classes with ground truth labels
 
-## Notes
-- This notebook imports `helper_functions`, which is not included in this split project. Add your local helper module before running.
+## Approach
+
+- Loaded and normalised FashionMNIST training and testing datasets
+- Converted image data into tensor format suitable for PyTorch modelling
+- Trained a neural network classifier on labelled image samples
+- Generated predictions and evaluated classification outputs on test data
+
+## Key Findings
+
+- The neural network produced class predictions across multiple clothing categories from grayscale image inputs
+- Tensor-based image preprocessing supported compatibility with PyTorch training workflows
+- Model predictions enabled comparison between estimated and true class labels
+- Evaluation outputs provided structured insight into classification behaviour across categories
